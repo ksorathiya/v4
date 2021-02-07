@@ -132,7 +132,31 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = [
+    'NodeJS | ExpressJS | SailsJS',
+    'React | React Native',
+    'HTML 5 | CSS 3 | JavaScript',
+    'MySQL | SQLite | Postgres',
+    'MongoDB | InfluxDB | Redis | RabbitMQ',
+    'Asterisk | eJabberd',
+    'D3 | Dygraph | RechartJS',
+    'C | C++ | Erlang',
+    'Bash Scripting',
+    'AWS',
+    'Nginx | Apache ',
+    'Docker | Kubernetes',
+    'Ansible | Teleport',
+    'Jenkins | Gitlab CI/CD',
+    'ElasticSearch | Logstash | Grafana',
+    'Telegraf | Chronograf | Kapacitor',
+    'Linux System Administration',
+    'OpenStack | CloudStack',
+    'Machine Learning',
+    'Artificial Intelligence',
+    'Data Analysis',
+    'Blockchain',
+    'Go | Python | Rust',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,19 +165,28 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
-
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              My name is Kartik. I am currently carving my path towards becoming a Technical Project
+              Manager. Thus, currently, my focus is mainly in learning all the technical skills that
+              comes my way and practice project management and leadership.
             </p>
 
+            {/* <p>
+              I enjoy building solutions that helps humans solve their problems, whether that be
+              websites, applications, embedded devices, algorithms, workflows, or anything in
+              between. My goal is to always have an attention to details in finding out what the
+              end-users exactly wants.
+            </p> */}
+
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              I joined my current employer, Solvative (previously Quark Studios), right after my
+              graduation as a full stack developer (javascript). I had offers from TCS and Accenture
+              but I chose to join a startup in order to gain skills across different stacks,
+              technical and managerial. Here, I had to wear many hats and sometimes all at the same
+              time. I started off as a MEAN stack developer and then eventually found myself leading
+              multiple project teams (max 14 peers). Here, my roles and responsibilities range from
+              communicating effectively with the client to understand their requirements, designing
+              optimized and efficient software architecture, and leading the project team success.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
